@@ -1,6 +1,5 @@
 package HW1;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -19,7 +18,7 @@ public class Main {
         cars[0] = new Car("Audi", 5000, 3.2, true);
         cars[1] = new Car("Honda", 4000, 5.4, false);
         cars[2] = new Car("Dodge", 4800, 3.0, false);
-        cars[3] = new Car("Koenigsegg", 6000, 5.8, true);
+        cars[3] = new Car("McLaren", 6000, 5.8, true);
         cars[4] = new Car("Acura", 2000, 1.8, false);
         System.out.println(Arrays.toString(cars));
 
