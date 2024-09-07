@@ -1,6 +1,24 @@
 package HW1;
 
 public class Book {
+    private String title;
+    private int pages;
+    private String Authors;
+    private String genre;
+
+    public Book(String title, int pages, String Authors, String genre){
+        this.title = title;
+        this.pages = pages;
+        this.Authors = Authors;
+        this.genre = genre;
+    }
+
+    public String toString(){
+        return "{Title: " + title +
+                ", Pages: " + pages +
+                ", Author: " + Authors +
+                ", Genre: " + genre + "}";
+    }
     public String getTitle() {
         return title;
     }
@@ -14,7 +32,9 @@ public class Book {
     }
 
     public void setPages(int pages) {
-        this.pages = pages;
+        if (pages>0) {
+            this.pages = pages;
+        }
     }
 
     public String getAuthors() {
@@ -31,14 +51,5 @@ public class Book {
 
     public void setGenre(String genre) {
         this.genre = genre;
-    }
-
-    private String title;
-    private int pages;
-    private String Authors;
-    private String genre;
-
-    public Book(){
-
     }
 }
