@@ -25,7 +25,7 @@ public class Main {
         System.out.println(Arrays.toString(cars));
 
         //Dogs
-        ArrayList<Dog> arrayList = new ArrayList<Dog>();
+        ArrayList<Dog> arrayList = new ArrayList<>();
         arrayList.add(new Dog("Carter", 4, "Boxer"));
         arrayList.add(new Dog("Ashley", 2, "German Shepherd"));
         arrayList.add(new Dog("Eugenie", 1, "Poodle"));
@@ -34,7 +34,7 @@ public class Main {
         System.out.println(arrayList);
 
         //Posts
-        ArrayList<Post> posts = new ArrayList<Post>();
+        ArrayList<Post> posts = new ArrayList<>();
         posts.add(new Post(1, 1, "sunt aut facere repellat provident occaecati excepturi optio reprehenderit", "quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto"));
         posts.add(new Post(1, 2, "qui est esse", "est rerum tempore vitae\\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\\nqui aperiam non debitis possimus qui neque nisi nulla"));
         posts.add(new Post(1, 6, "dolorem eum magni eos aperiam quia", "ut aspernatur corporis harum nihil quis provident sequi\\nmollitia nobis aliquid molestiae\\nperspiciatis et ea nemo ab reprehenderit accusantium quas\\nvoluptate dolores velit et doloremque molestiae"));
@@ -43,12 +43,12 @@ public class Main {
         System.out.println(posts);
 
         //Comments
-        Comment[] comments = new Comment[5];
-        comments[0] = new Comment(1,1,"id labore ex et quam laborum", "Eliseo@gardner.biz", "laudantium enim quasi est quidem magnam voluptate ipsam eos\\ntempora quo necessitatibus\\ndolor quam autem quasi\\nreiciendis et nam sapiente accusantium");
-        comments[1] = new Comment(1,4, "alias odio sit", "Lew@alysha.tv", "non et atque\\noccaecati deserunt quas accusantium unde odit nobis qui voluptatem\\nquia voluptas consequuntur itaque dolor\\net qui rerum deleniti ut occaecati");
-        comments[2] = new Comment(2,7, "repellat consequatur praesentium vel minus molestias voluptatum", "Dallas@ole.me", "maiores sed dolores similique labore et inventore et\\nquasi temporibus esse sunt id et\\neos voluptatem aliquam\\naliquid ratione corporis molestiae mollitia quia et magnam dolor");
-        comments[3] = new Comment(3,11, "fugit labore quia mollitia quas deserunt nostrum sunt", "Veronica_Goodwin@timmothy.net", "ut dolorum nostrum id quia aut est\\nfuga est inventore vel eligendi explicabo quis consectetur\\naut occaecati repellat id natus quo est\\nut blanditiis quia ut vel ut maiores ea");
-        comments[4] = new Comment(6,27,"doloribus quibusdam molestiae amet illum", "doloribus quibusdam molestiae amet illum", "nisi vel quas ut laborum ratione\\nrerum magni eum\\nunde et voluptatem saepe\\nvoluptas corporis modi amet ipsam eos saepe porro");
-        System.out.println(Arrays.toString(comments));
+        ArrayList<Comment> comments = new ArrayList<>();
+        comments.add(new Comment(1,1,"id labore ex et quam laborum", "Eliseo@gardner.biz", "laudantium enim quasi est quidem magnam voluptate ipsam eos\\ntempora quo necessitatibus\\ndolor quam autem quasi\\nreiciendis et nam sapiente accusantium"));
+        comments.add(new Comment(1,4, "alias odio sit", "Lew@alysha.tv", "non et atque\\noccaecati deserunt quas accusantium unde odit nobis qui voluptatem\\nquia voluptas consequuntur itaque dolor\\net qui rerum deleniti ut occaecati"));
+        comments.add(new Comment(2,7, "repellat consequatur praesentium vel minus molestias voluptatum", "Dallas@ole.me", "maiores sed dolores similique labore et inventore et\\nquasi temporibus esse sunt id et\\neos voluptatem aliquam\\naliquid ratione corporis molestiae mollitia quia et magnam dolor"));
+        comments.add(new Comment(3,11, "fugit labore quia mollitia quas deserunt nostrum sunt", "Veronica_Goodwin@timmothy.net", "ut dolorum nostrum id quia aut est\\nfuga est inventore vel eligendi explicabo quis consectetur\\naut occaecati repellat id natus quo est\\nut blanditiis quia ut vel ut maiores ea"));
+        comments.add(new Comment(6,27,"doloribus quibusdam molestiae amet illum", "doloribus quibusdam molestiae amet illum", "nisi vel quas ut laborum ratione\\nrerum magni eum\\nunde et voluptatem saepe\\nvoluptas corporis modi amet ipsam eos saepe porro"));
+        System.out.println(comments);
         }
     }
