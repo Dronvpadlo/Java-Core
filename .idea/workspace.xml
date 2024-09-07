@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="Complete 2 task">
-      <change afterPath="$PROJECT_DIR$/src/HW1/Comment.java" afterDir="false" />
+    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="Complete HW">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Main.java" afterDir="false" />
     </list>
@@ -80,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1725646526603</updated>
       <workItem from="1725646527744" duration="2834000" />
-      <workItem from="1725696764877" duration="6383000" />
+      <workItem from="1725696764877" duration="6999000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -114,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725702821094</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Complete HW">
+      <option name="closed" value="true" />
+      <created>1725703924056</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725703924056</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +131,7 @@
     <MESSAGE value="Init commit" />
     <MESSAGE value="Complete 1 task" />
     <MESSAGE value="Complete 2 task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete 2 task" />
+    <MESSAGE value="Complete HW" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete HW" />
   </component>
 </project>

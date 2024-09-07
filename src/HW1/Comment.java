@@ -19,7 +19,10 @@ public class Comment {
     }
 
     public void setPostId(int postId) {
-        this.postId = postId;
+        if (postId>0){
+            this.postId = postId;
+        }
+
     }
 
     public int getId() {
@@ -27,7 +30,9 @@ public class Comment {
     }
 
     public void setId(int id) {
-        this.id = id;
+        if (id>0){
+            this.id = id;
+        }
     }
 
     public String getName() {
