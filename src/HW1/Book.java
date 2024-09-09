@@ -3,20 +3,20 @@ package HW1;
 public class Book {
     private String title;
     private int pages;
-    private String Authors;
+    private String author;
     private String genre;
 
-    public Book(String title, int pages, String Authors, String genre){
+    public Book(String title, int pages, String author, String genre){
         this.title = title;
         this.pages = pages;
-        this.Authors = Authors;
+        this.author = author;
         this.genre = genre;
     }
 
     public String toString(){
         return "{Title: " + title +
                 ", Pages: " + pages +
-                ", Author: " + Authors +
+                ", Author: " + author +
                 ", Genre: " + genre + "}";
     }
     public String getTitle() {
@@ -38,11 +38,11 @@ public class Book {
     }
 
     public String getAuthors() {
-        return Authors;
+        return author;
     }
 
     public void setAuthors(String authors) {
-        Authors = authors;
+        author = author;
     }
 
     public String getGenre() {
