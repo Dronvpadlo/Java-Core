@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="Complete HW">
+    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="Init commit">
+      <change afterPath="$PROJECT_DIR$/src/HW2/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2/Geo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +86,8 @@
       <workItem from="1725696764877" duration="7379000" />
       <workItem from="1725737956348" duration="31000" />
       <workItem from="1725738127883" duration="373000" />
+      <workItem from="1725905053655" duration="145000" />
+      <workItem from="1725907950415" duration="1889000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -146,17 +153,33 @@
       <option name="project" value="LOCAL" />
       <updated>1725737965049</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Complete HW">
+      <option name="closed" value="true" />
+      <created>1725905159678</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725905159678</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1725905193798</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725905193798</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Init commit" />
     <MESSAGE value="Complete 1 task" />
     <MESSAGE value="Complete 2 task" />
     <MESSAGE value="Complete HW" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete HW" />
+    <MESSAGE value="Init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init commit" />
   </component>
 </project>
