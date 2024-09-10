@@ -29,7 +29,9 @@ public class Post {
     }
 
     public void setUserId(int userId) {
-        this.userId = userId;
+        if (userId>0) {
+            this.userId = userId;
+        }
     }
 
     public int getId() {
@@ -37,7 +39,9 @@ public class Post {
     }
 
     public void setId(int id) {
-        this.id = id;
+        if(id>0) {
+            this.id = id;
+        }
     }
 
     public String getTitle() {
