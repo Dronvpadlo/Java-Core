@@ -1,6 +1,6 @@
 package HW2;
 
-public class Company extends User{
+public class Company extends User {
     String name;
     String catchPhrase;
     String bs;
@@ -9,5 +9,8 @@ public class Company extends User{
         this.name = name;
         this.catchPhrase = catchPhrase;
         this.bs = bs;
+    }
+    public String toString(){
+        return ", Company {Name: " + name + ", CatchPhrase: " + catchPhrase + ", BS: " + bs + "}";
     }
 }
