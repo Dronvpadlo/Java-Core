@@ -33,8 +33,14 @@ public class Main {
         //Папірус-Кинга-Журнал
         //Папірус-Книга-Комікс
         //Кількість полів довільна.
-        //
-        //
+        Book book = new Book("paper", "Smock Bellew", "Jack London", 126);
+        Magazine magazine = new Magazine("paper", "How Wheels", "Unknown Author", 18, 4);
+        Comic comic = new Comic("paper", "X-Men", "Marvel", 24, "John Romita");
+        System.out.println(book+ "}");
+        System.out.println(magazine);
+        System.out.println(comic);
+
+
         //Створити клас котрий відповідає наступній моделі
         //{
         //    id: 1,

@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="1 task complete">
-      <change afterPath="$PROJECT_DIR$/src/HW2/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW2/Ultrabook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW2/Workstation.java" afterDir="false" />
+    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="2 task complete">
+      <change afterPath="$PROJECT_DIR$/src/HW2/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2/Comic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2/Magazine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2/Papirus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW2/PC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/PC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +103,7 @@
       <workItem from="1725738127883" duration="373000" />
       <workItem from="1725905053655" duration="145000" />
       <workItem from="1725907950415" duration="1928000" />
-      <workItem from="1725953622184" duration="7107000" />
+      <workItem from="1725953622184" duration="9062000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -217,7 +217,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725957510898</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="2 task complete">
+      <option name="closed" value="true" />
+      <created>1725960949040</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1725960949040</updated>
+    </task>
+    <task id="LOCAL-00016" summary="2 task complete">
+      <option name="closed" value="true" />
+      <created>1725960995742</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1725960995742</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,14 +246,15 @@
     <MESSAGE value="Init commit" />
     <MESSAGE value="1 task processing..." />
     <MESSAGE value="1 task complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 task complete" />
+    <MESSAGE value="2 task complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 task complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/HW2/Main.java</url>
-          <line>7</line>
+          <line>11</line>
           <properties class="HW2.Main" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
