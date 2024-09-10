@@ -12,13 +12,19 @@ public class Main {
         User user1 = new User(1, "Leanne Graham", "Bret", "Sincere@april.biz", address, "1-770-736-8031 x56442", "hildegard.org", "Romaguera-Crona", "Multi-layered client-server neural-net", "harness real-time e-markets");
         System.out.println(user1);
 
-
         //Створити та описати наступну їєрархію
         //PC-Laptop-Ultrabook
         //PC-Laptop- Workstation
         //Загальна кількість вкористаних класів - 4!
-        //
-        //
+        PC pc = new PC("Asus","AMD", 2.4, 8 );
+        Laptop laptop = new Laptop("Acer", "Intel", 3.7, 16, 16.2, true);
+        Ultrabook ultrabook = new Ultrabook("Lenovo", "AMD", 2.8, 8, 15, false, 1.7);
+        Workstation workstation = new Workstation("Dell","Intel", 3.7, 16, 17.2, true, "Nvidia 3070TI", 8);
+        System.out.println(pc + "}");
+        System.out.println(laptop + "}");
+        System.out.println(ultrabook);
+        System.out.println(workstation);
+
         //Cтворити клас ланцюг наслідування:
         //Папірус-Кинга-Журнал
         //Папірус-Книга-Комікс
