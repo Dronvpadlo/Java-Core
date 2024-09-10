@@ -20,18 +20,22 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+
+        // Task 1
         //створити клас, який би описував подібні об'єкти виклористовуючи композицію/агрегацію
         //https://jsonplaceholder.typicode.com/users/1
+        System.out.println("Task 1");
         Address address = new Address("Kulas Light", "Apt. 556", "Gwenborough", "92998-3874", "-37.3159","81.1496");
         User user1 = new User(1, "Leanne Graham", "Bret", "Sincere@april.biz", address, "1-770-736-8031 x56442", "hildegard.org", "Romaguera-Crona", "Multi-layered client-server neural-net", "harness real-time e-markets");
         System.out.println(user1);
         System.out.println("______________________________________");
 
-
+        // Task 2
         //Створити та описати наступну їєрархію
         //PC-Laptop-Ultrabook
         //PC-Laptop- Workstation
         //Загальна кількість вкористаних класів - 4!
+        System.out.println("Task 2");
         PC pc = new PC("Asus","AMD", 2.4, 8 );
         Laptop laptop = new Laptop("Acer", "Intel", 3.7, 16, 16.2, true);
         Ultrabook ultrabook = new Ultrabook("Lenovo", "AMD", 2.8, 8, 15, false, 1.7);
@@ -42,11 +46,12 @@ public class Main {
         System.out.println(workstation);
         System.out.println("______________________________________");
 
-
+        // Task3
         //Cтворити клас ланцюг наслідування:
         //Папірус-Кинга-Журнал
         //Папірус-Книга-Комікс
         //Кількість полів довільна.
+        System.out.println("Task 3");
         Book book = new Book("paper", "Smock Bellew", "Jack London", 126);
         Magazine magazine = new Magazine("paper", "How Wheels", "Unknown Author", 18, 4);
         Comic comic = new Comic("paper", "X-Men", "Marvel", 24, "John Romita");
@@ -55,7 +60,7 @@ public class Main {
         System.out.println(comic);
         System.out.println("______________________________________");
 
-
+        // Task 4
         //Створити клас котрий відповідає наступній моделі
         //{
         //    id: 1,
@@ -68,6 +73,7 @@ public class Main {
         //    car: {model: 'toyota', year: 2021, power: 250}
         //}
         //Використати композицію/агрегацію та енуми в потрібному місці.
+        System.out.println("Task 4");
         ArrayList<Skills> skills = new ArrayList<>();
         skills.add(new Skills("java", 10));
         skills.add(new Skills("js", 10));
@@ -76,14 +82,19 @@ public class Main {
         System.out.println(student2);
         System.out.println("______________________________________");
 
-
+        // Task 5
         //***Additional***
         //Є об'єкти постів:
+        //Є об'єкти коментарів до цих постів
+        //Запакувати всі пости в список,всі коментарі в свій окремий список
+        //Проітерувати списки, і додати коментар з відповідним ід до відповідного поста
+        //
+        //В постах додатково потрібно додати поле яке характеризує список комментарів.
+        System.out.println("Task 5");
         ArrayList<Post> posts = new ArrayList<>();
         posts.add(new Post(1, 1, "sunt aut facere repellat provident occaecati excepturi optio reprehenderit", "quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto"));
         posts.add(new Post(1, 2, "qui est esse", "\"est rerum tempore vitae\\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\\nqui aperiam non debitis possimus qui neque nisi nulla\""));
         posts.add(new Post(1, 3, "ea molestias quasi exercitationem repellat qui ipsa sit aut", "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"));
-
 
         ArrayList<Comment> comments = new ArrayList<>();
         comments.add(new Comment(1, 1, "id labore ex et quam laborum", "Eliseo@gardner.biz", "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"));
@@ -105,12 +116,5 @@ public class Main {
         for (Post post : posts) {
             System.out.println(post);
         }
-
-        //Є об'єкти коментарів до цих постів
-
-        //Запакувати всі пости в список,всі коментарі в свій окремий список
-        //Проітерувати списки, і додати коментар з відповідним ід до відповідного поста
-        //
-        //В постах додатково потрібно додати поле яке характеризує список комментарів.
     }
 }

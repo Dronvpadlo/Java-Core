@@ -59,12 +59,12 @@ public class Comment {
 
     @Override
     public String toString() {
-        return "Comment" + id + ": {" +
-                "postId=" + postId +
-                ", id=" + id +
-                ", name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", body='" + body + '\'' +
+        return  "\n" + "Comment" + id + ": {" + "\n" +
+                "postId: " + postId + ",\n" +
+                "id: " + id + ",\n" +
+                "name: " + name + ",\n" +
+                "email: " + email + ",\n" +
+                "body: " + body +  ",\n" +
                 '}';
     }
 }

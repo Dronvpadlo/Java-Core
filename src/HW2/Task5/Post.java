@@ -58,12 +58,13 @@ public class Post {
 
     @Override
     public String toString() {
-        return "Post: {" +
-                "userId: " + userId +
-                ", id: " + id +
-                ", title: '" + title + '\'' +
-                ", body: '" + body + '\'' +
-                ", comments: " + comments +
-                "}";
+        return "Post: {" + "\n" +
+                "userId: " + userId + ",\n" +
+                "id: " + id + ",\n" +
+                "title: " + title + ",\n" +
+                "body: " + body + ",\n" +
+                "comments: " + comments +
+                "}" + "\n" +
+                "____________________________________________________________________";
     }
 }
