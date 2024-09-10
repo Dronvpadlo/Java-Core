@@ -15,7 +15,7 @@ public class User {
 
     }
 
-    public User(int id, String name, String username, String email, Address address, String phone, String website, Company company) {
+    public User(int id, String name, String username, String email, Address address, String phone, String website, String companyName, String catchPhrase, String bs) {
         this.id = id;
         this.name = name;
         this.username = username;
@@ -23,7 +23,7 @@ public class User {
         this.address = address;
         this.phone = phone;
         this.website = website;
-        this.company = company;
+        this.company = new Company(companyName, catchPhrase, bs);
 
     }
     public String toString(){

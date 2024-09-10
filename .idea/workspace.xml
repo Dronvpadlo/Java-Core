@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="1 task processing...">
+    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="1 task complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW2/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW2/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW2/Geo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Geo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/User.java" afterDir="false" />
     </list>
@@ -103,7 +101,7 @@
       <workItem from="1725738127883" duration="373000" />
       <workItem from="1725905053655" duration="145000" />
       <workItem from="1725907950415" duration="1928000" />
-      <workItem from="1725953622184" duration="2594000" />
+      <workItem from="1725953622184" duration="3423000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -193,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725909883469</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1 task complete">
+      <option name="closed" value="true" />
+      <created>1725956477682</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725956477682</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +211,7 @@
     <MESSAGE value="Complete HW" />
     <MESSAGE value="Init commit" />
     <MESSAGE value="1 task processing..." />
-    <option name="LAST_COMMIT_MESSAGE" value="1 task processing..." />
+    <MESSAGE value="1 task complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 task complete" />
   </component>
 </project>
