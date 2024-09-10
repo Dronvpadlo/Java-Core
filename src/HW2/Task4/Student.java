@@ -34,15 +34,15 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student: {" +
-                "ID: " + id +
-                ", Name: " + name +
-                ", Surname: " + surname +
-                ", Email: " + email +
-                ", Age: " + age +
-                ", Gender: " + gender +
-                ", Skills: " + skills +
-                ", Car: " + car +
+        return "Student: {" + ",\n" +
+                "ID: " + id + ",\n" +
+                "Name: " + name + ",\n" +
+                "Surname: " + surname + ",\n" +
+                "Email: " + email + ",\n" +
+                "Age: " + age + ",\n" +
+                "Gender: " + gender + ",\n" +
+                "Skills: " + skills + ",\n" +
+                "Car: " + car + ",\n" +
                 '}';
     }
 }
