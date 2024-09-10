@@ -15,10 +15,10 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
-                "model='" + model + '\'' +
-                ", year=" + year +
-                ", power=" + power +
+        return "{" +
+                "model: " + model +
+                ", year: " + year +
+                ", power: " + power +
                 '}';
     }
 }

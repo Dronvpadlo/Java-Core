@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="1 task complete">
-      <change afterPath="$PROJECT_DIR$/src/HW2/Task4/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW2/Task4/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW2/Task4/Skills.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW2/Task4/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW2/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Task3/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW2/Comic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Task3/Comic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW2/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Task3/Magazine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW2/Papirus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Task3/Papirus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW2/Task2/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Task2/Laptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW2/Task2/PC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Task2/PC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW2/Task2/Ultrabook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Task2/Ultrabook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW2/Task2/Workstation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Task2/Workstation.java" afterDir="false" />
+    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="4 task complete">
+      <change beforePath="$PROJECT_DIR$/src/HW2/Task4/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Task4/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +99,7 @@
       <workItem from="1725738127883" duration="373000" />
       <workItem from="1725905053655" duration="145000" />
       <workItem from="1725907950415" duration="1928000" />
-      <workItem from="1725953622184" duration="12509000" />
+      <workItem from="1725953622184" duration="12912000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -258,7 +245,31 @@
       <option name="project" value="LOCAL" />
       <updated>1725963233848</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="2 task complete">
+      <option name="closed" value="true" />
+      <created>1725966671649</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1725966671649</updated>
+    </task>
+    <task id="LOCAL-00020" summary="3 task complete">
+      <option name="closed" value="true" />
+      <created>1725966681993</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1725966681993</updated>
+    </task>
+    <task id="LOCAL-00021" summary="4 task complete">
+      <option name="closed" value="true" />
+      <created>1725966689536</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1725966689536</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,9 +281,10 @@
     <MESSAGE value="Complete HW" />
     <MESSAGE value="Init commit" />
     <MESSAGE value="1 task processing..." />
+    <MESSAGE value="1 task complete" />
     <MESSAGE value="2 task complete" />
     <MESSAGE value="3 task complete" />
-    <MESSAGE value="1 task complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 task complete" />
+    <MESSAGE value="4 task complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 task complete" />
   </component>
 </project>

@@ -105,15 +105,15 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                ", email='" + email + '\'' +
-                ", age=" + age +
-                ", gender=" + gender +
-                ", skills=" + skills +
-                ", car=" + car +
+        return "Student: {" +
+                "ID: " + id +
+                ", Name: " + name +
+                ", Surname: " + surname +
+                ", Email: " + email +
+                ", Age: " + age +
+                ", Gender: " + gender +
+                ", Skills: " + skills +
+                ", Car: " + car +
                 '}';
     }
 }

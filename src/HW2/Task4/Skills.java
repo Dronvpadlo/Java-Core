@@ -13,9 +13,8 @@ public class Skills {
 
     @Override
     public String toString() {
-        return "Skills{" +
-                "title='" + title + '\'' +
-                ", exp=" + exp +
-                '}';
+        return "{" +
+                "title: " + title +
+                ", exp: " + exp + "}";
     }
 }
