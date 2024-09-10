@@ -14,16 +14,6 @@ public class Laptop extends PC {
         this.keyboardLighting = keyboardLighting;
     }
 
-    public double getDisplaySize() {
-        return displaySize;
-    }
-
-    public void setDisplaySize(double displaySize) {
-        if (displaySize>0) {
-            this.displaySize = displaySize;
-        }
-    }
-
     @Override
     public String toString() {
         return super.toString() + ", Display Size: " + displaySize + "\"" +

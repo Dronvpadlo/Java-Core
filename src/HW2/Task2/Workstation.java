@@ -15,16 +15,6 @@ public class Workstation extends Laptop {
         this.gpuMemory = gpuMemory;
     }
 
-    public Number getGpuMemory() {
-        return gpuMemory;
-    }
-
-    public void setGpuMemory(int gpuMemory) {
-        if (gpuMemory>0) {
-            this.gpuMemory = gpuMemory;
-        }
-    }
-
     @Override
     public String toString() {
         super.toString();

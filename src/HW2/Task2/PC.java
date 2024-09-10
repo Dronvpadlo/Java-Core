@@ -15,42 +15,6 @@ public class PC {
         this.ram = ram;
     }
 
-    public String getProcessorName() {
-        return processorName;
-    }
-
-    public void setProcessorName(String processorName) {
-        this.processorName = processorName;
-    }
-
-    public double getFrequency() {
-        return frequency;
-    }
-
-    public void setFrequency(double frequency) {
-        if (frequency>0) {
-            this.frequency = frequency;
-        }
-    }
-
-    public String getPcName() {
-        return pcName;
-    }
-
-    public void setPcName(String pcName) {
-        this.pcName = pcName;
-    }
-
-    public int getRam() {
-        return ram;
-    }
-
-    public void setRam(int ram) {
-        if (ram>0) {
-            this.ram = ram;
-        }
-    }
-
     @Override
     public String toString() {
         return pcName + ": {" +
