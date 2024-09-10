@@ -1,4 +1,6 @@
-package HW2;
+package HW2.Task2;
+
+import HW2.Task2.Laptop;
 
 public class Workstation extends Laptop {
     String gpuName;

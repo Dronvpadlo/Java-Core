@@ -1,8 +1,12 @@
 package HW2;
 
 
-import Task1.Address;
-import Task1.User;
+import HW2.Task1.Address;
+import HW2.Task1.User;
+import HW2.Task2.Laptop;
+import HW2.Task2.PC;
+import HW2.Task2.Ultrabook;
+import HW2.Task2.Workstation;
 
 public class Main {
     public static void main(String[] args) {

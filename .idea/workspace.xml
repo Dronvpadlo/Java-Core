@@ -60,7 +60,7 @@
       <module name="Java-Core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task1.*" />
+          <option name="PATTERN" value="HW2.Task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

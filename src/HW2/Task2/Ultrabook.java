@@ -1,6 +1,8 @@
-package HW2;
+package HW2.Task2;
 
-public class Ultrabook extends Laptop{
+import HW2.Task2.Laptop;
+
+public class Ultrabook extends Laptop {
     private double weight;
     public Ultrabook(){
 

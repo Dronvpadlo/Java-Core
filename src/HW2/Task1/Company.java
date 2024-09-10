@@ -1,4 +1,4 @@
-package Task1;
+package HW2.Task1;
 
 public final class Company extends User {
     private String name;

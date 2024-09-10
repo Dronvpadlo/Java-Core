@@ -1,6 +1,6 @@
-package HW2;
+package HW2.Task2;
 
-public class Laptop extends PC{
+public class Laptop extends PC {
 
     private double displaySize;
     private boolean keyboardLighting;

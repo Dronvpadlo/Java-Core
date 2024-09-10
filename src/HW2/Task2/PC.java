@@ -1,4 +1,4 @@
-package HW2;
+package HW2.Task2;
 
 public class PC {
     private String pcName;
