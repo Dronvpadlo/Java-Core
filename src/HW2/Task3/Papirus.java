@@ -9,14 +9,6 @@ public class Papirus {
         this.materials = materials;
     }
 
-    public String getMaterials() {
-        return materials;
-    }
-
-    public void setMaterials(String materials) {
-        this.materials = materials;
-    }
-
     @Override
     public String toString() {
         return "Papirus{" +

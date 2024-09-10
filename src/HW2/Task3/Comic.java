@@ -11,13 +11,6 @@ public class Comic extends Book{
         this.illustrator = illustrator;
     }
 
-    public String getIllustrator() {
-        return illustrator;
-    }
-
-    public void setIllustrator(String illustrator) {
-        this.illustrator = illustrator;
-    }
 
     @Override
     public String toString() {
