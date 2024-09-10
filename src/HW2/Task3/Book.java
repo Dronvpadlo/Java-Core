@@ -1,4 +1,4 @@
-package HW2;
+package HW2.Task3;
 
 public class Book extends Papirus{
     private String title;
