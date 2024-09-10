@@ -18,7 +18,9 @@ public class Ultrabook extends Laptop {
     }
 
     public void setWeight(double weight) {
-        this.weight = weight;
+        if (weight>0) {
+            this.weight = weight;
+        }
     }
 
     @Override

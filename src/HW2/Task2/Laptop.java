@@ -19,15 +19,9 @@ public class Laptop extends PC {
     }
 
     public void setDisplaySize(double displaySize) {
-        this.displaySize = displaySize;
-    }
-
-    public boolean isKeyboardLighting() {
-        return keyboardLighting;
-    }
-
-    public void setKeyboardLighting(boolean keyboardLighting) {
-        this.keyboardLighting = keyboardLighting;
+        if (displaySize>0) {
+            this.displaySize = displaySize;
+        }
     }
 
     @Override

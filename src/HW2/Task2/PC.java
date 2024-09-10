@@ -28,7 +28,9 @@ public class PC {
     }
 
     public void setFrequency(double frequency) {
-        this.frequency = frequency;
+        if (frequency>0) {
+            this.frequency = frequency;
+        }
     }
 
     public String getPcName() {
@@ -44,7 +46,9 @@ public class PC {
     }
 
     public void setRam(int ram) {
-        this.ram = ram;
+        if (ram>0) {
+            this.ram = ram;
+        }
     }
 
     @Override
