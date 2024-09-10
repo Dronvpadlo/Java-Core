@@ -32,7 +32,9 @@ public class User {
     }
 
     public void setId(int id) {
-        this.id = id;
+        if (id>0) {
+            this.id = id;
+        }
     }
 
     public String getName() {
