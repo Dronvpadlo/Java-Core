@@ -3,13 +3,13 @@ package HW2.Task4;
 import java.util.ArrayList;
 
 public class Student {
-    private int id;
-    private String name;
-    private String surname;
-    private String email;
-    private int age;
-    private Gender gender;
-    private ArrayList<Skills> skills;
+    private final int id;
+    private final String name;
+    private final String surname;
+    private final String email;
+    private final int age;
+    private final Gender gender;
+    private final ArrayList<Skills> skills;
     private Car car;
 
     public Student(int id, String name, String surname, String email, int age, Gender gender, ArrayList<Skills> skills, String model, int year, int power) {
