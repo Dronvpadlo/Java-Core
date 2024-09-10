@@ -7,6 +7,14 @@ import HW2.Task2.Laptop;
 import HW2.Task2.PC;
 import HW2.Task2.Ultrabook;
 import HW2.Task2.Workstation;
+import HW2.Task3.Book;
+import HW2.Task3.Comic;
+import HW2.Task3.Magazine;
+import HW2.Task4.Gender;
+import HW2.Task4.Skills;
+import HW2.Task4.Student;
+
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,6 +23,7 @@ public class Main {
         Address address = new Address("Kulas Light", "Apt. 556", "Gwenborough", "92998-3874", "-37.3159","81.1496");
         User user1 = new User(1, "Leanne Graham", "Bret", "Sincere@april.biz", address, "1-770-736-8031 x56442", "hildegard.org", "Romaguera-Crona", "Multi-layered client-server neural-net", "harness real-time e-markets");
         System.out.println(user1);
+
 
         //Створити та описати наступну їєрархію
         //PC-Laptop-Ultrabook
@@ -28,6 +37,7 @@ public class Main {
         System.out.println(laptop + "}");
         System.out.println(ultrabook);
         System.out.println(workstation);
+
 
         //Cтворити клас ланцюг наслідування:
         //Папірус-Кинга-Журнал
@@ -53,9 +63,14 @@ public class Main {
         //    car: {model: 'toyota', year: 2021, power: 250}
         //}
         //Використати композицію/агрегацію та енуми в потрібному місці.
-        //
-        //
-        //
+        ArrayList<Skills> skills = new ArrayList<>();
+        skills.add(new Skills("java", 10));
+        skills.add(new Skills("js", 10));
+        skills.add(new Skills("c++", 10));
+        Student student2 = new Student(1, "Vasia", "Pupkin", "asd@asd.com", 31, Gender.MALE, skills, "toyota", 2021, 250);
+        System.out.println(student2);
+
+
         //***Additional***
         //Є об'єкти постів:
         //{
