@@ -1,20 +1,29 @@
 package HW2.Task5;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Post {
     private int userId;
     private int id;
     private String title;
     private String body;
+    private List<Comment> comments;
     public Post(){
 
     }
+
     public Post(int userId, int id, String title, String body) {
         this.userId = userId;
         this.id = id;
         this.title = title;
         this.body = body;
+        this.comments = new ArrayList<>();
     }
 
+    public void addComment(Comment comment) {
+        this.comments.add(comment);
+    }
     public int getUserId() {
         return userId;
     }
@@ -49,11 +58,12 @@ public class Post {
 
     @Override
     public String toString() {
-        return "Post{" +
-                "userId=" + userId +
-                ", id=" + id +
-                ", title='" + title + '\'' +
-                ", body='" + body + '\'' +
-                '}';
+        return "Post: {" +
+                "userId: " + userId +
+                ", id: " + id +
+                ", title: '" + title + '\'' +
+                ", body: '" + body + '\'' +
+                ", comments: " + comments +
+                "}";
     }
 }

@@ -25,6 +25,7 @@ public class Main {
         Address address = new Address("Kulas Light", "Apt. 556", "Gwenborough", "92998-3874", "-37.3159","81.1496");
         User user1 = new User(1, "Leanne Graham", "Bret", "Sincere@april.biz", address, "1-770-736-8031 x56442", "hildegard.org", "Romaguera-Crona", "Multi-layered client-server neural-net", "harness real-time e-markets");
         System.out.println(user1);
+        System.out.println("______________________________________");
 
 
         //Створити та описати наступну їєрархію
@@ -39,6 +40,7 @@ public class Main {
         System.out.println(laptop + "}");
         System.out.println(ultrabook);
         System.out.println(workstation);
+        System.out.println("______________________________________");
 
 
         //Cтворити клас ланцюг наслідування:
@@ -51,6 +53,7 @@ public class Main {
         System.out.println(book+ "}");
         System.out.println(magazine);
         System.out.println(comic);
+        System.out.println("______________________________________");
 
 
         //Створити клас котрий відповідає наступній моделі
@@ -71,6 +74,7 @@ public class Main {
         skills.add(new Skills("c++", 10));
         Student student2 = new Student(1, "Vasia", "Pupkin", "asd@asd.com", 31, Gender.MALE, skills, "toyota", 2021, 250);
         System.out.println(student2);
+        System.out.println("______________________________________");
 
 
         //***Additional***
@@ -79,7 +83,7 @@ public class Main {
         posts.add(new Post(1, 1, "sunt aut facere repellat provident occaecati excepturi optio reprehenderit", "quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto"));
         posts.add(new Post(1, 2, "qui est esse", "\"est rerum tempore vitae\\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\\nqui aperiam non debitis possimus qui neque nisi nulla\""));
         posts.add(new Post(1, 3, "ea molestias quasi exercitationem repellat qui ipsa sit aut", "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"));
-        System.out.println(posts);
+
 
         ArrayList<Comment> comments = new ArrayList<>();
         comments.add(new Comment(1, 1, "id labore ex et quam laborum", "Eliseo@gardner.biz", "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"));
@@ -90,7 +94,17 @@ public class Main {
         comments.add(new Comment(3, 13, "aut inventore non pariatur sit vitae voluptatem sapiente", "Kariane@jadyn.tv", "fuga eos qui dolor rerum\ninventore corporis exercitationem\ncorporis cupiditate et deserunt recusandae est sed quis culpa\neum maiores corporis et"));
         comments.add(new Comment(3, 14, "et officiis id praesentium hic aut ipsa dolorem repudiandae", "Nathan@solon.io", "vel quae voluptas qui exercitationem\nvoluptatibus unde sed\nminima et qui ipsam aspernatur\nexpedita magnam laudantium et et quaerat ut qui dolorum"));
         comments.add(new Comment(3, 15, "debitis magnam hic odit aut ullam nostrum tenetur", "Maynard.Hodkiewicz@roberta.com", "nihil ut voluptates blanditiis autem odio dicta rerum\nquisquam saepe et est\nsunt quasi nemo laudantium deserunt\nmolestias tempora quo quia"));
-        System.out.println(comments);
+
+        for (Post post : posts) {
+            for (Comment comment : comments) {
+                if (comment.getPostId() == post.getId()) {
+                    post.addComment(comment);
+                }
+            }
+        }
+        for (Post post : posts) {
+            System.out.println(post);
+        }
 
         //Є об'єкти коментарів до цих постів
 

@@ -59,7 +59,7 @@ public class Comment {
 
     @Override
     public String toString() {
-        return "Comment{" +
+        return "Comment" + id + ": {" +
                 "postId=" + postId +
                 ", id=" + id +
                 ", name='" + name + '\'' +
