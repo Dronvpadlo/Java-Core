@@ -1,6 +1,9 @@
 package HW2;
 
 
+import Task1.Address;
+import Task1.User;
+
 public class Main {
     public static void main(String[] args) {
         //створити клас, який би описував подібні об'єкти виклористовуючи композицію/агрегацію

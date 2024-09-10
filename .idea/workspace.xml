@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="1 task complete">
+      <change afterPath="$PROJECT_DIR$/src/HW2/PC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW2/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW2/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW2/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW2/Geo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1/Geo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,7 @@
       <module name="Java-Core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW2.*" />
+          <option name="PATTERN" value="Task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,7 +104,7 @@
       <workItem from="1725738127883" duration="373000" />
       <workItem from="1725905053655" duration="145000" />
       <workItem from="1725907950415" duration="1928000" />
-      <workItem from="1725953622184" duration="3423000" />
+      <workItem from="1725953622184" duration="3748000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -199,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725956477682</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1 task complete">
+      <option name="closed" value="true" />
+      <created>1725957265602</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1725957265602</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

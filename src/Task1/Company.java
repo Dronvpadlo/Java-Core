@@ -1,9 +1,9 @@
-package HW2;
+package Task1;
 
-public class Company extends User {
-    String name;
-    String catchPhrase;
-    String bs;
+public final class Company extends User {
+    private String name;
+    private String catchPhrase;
+    private String bs;
 
     public Company(String name, String catchPhrase, String bs) {
         this.name = name;

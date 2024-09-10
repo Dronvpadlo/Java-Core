@@ -1,11 +1,11 @@
-package HW2;
+package Task1;
 
-public class Address extends User{
-    String street;
-    String suite;
-    String city;
-    String zipcode;
-    Geo geo;
+public class Address extends User {
+    private String street;
+    private String suite;
+    private String city;
+    private String zipcode;
+    private Geo geo;
 
     public Address(){
     }
