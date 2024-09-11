@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="5 task complete">
-      <change afterPath="$PROJECT_DIR$/src/HW3/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW3/Magazine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW3/Printable.java" afterDir="false" />
+    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="1 task complete">
+      <change afterPath="$PROJECT_DIR$/src/HW3/Task2/Drums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW3/Task2/Guitar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW3/Task2/Instrument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW3/Task2/Trumpet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <module name="Java-Core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW3.*" />
+          <option name="PATTERN" value="HW3.Task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,7 +122,7 @@
       <workItem from="1725907950415" duration="1928000" />
       <workItem from="1725953622184" duration="13289000" />
       <workItem from="1725985385418" duration="6005000" />
-      <workItem from="1726082153715" duration="2309000" />
+      <workItem from="1726082153715" duration="3275000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -395,7 +396,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725993808350</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="1 task complete">
+      <option name="closed" value="true" />
+      <created>1726084724033</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1726084724033</updated>
+    </task>
+    <task id="LOCAL-00036" summary="1 task complete">
+      <option name="closed" value="true" />
+      <created>1726084749622</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1726084749622</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,11 +436,11 @@
     <MESSAGE value="Init commit" />
     <MESSAGE value="1 task processing..." />
     <MESSAGE value="5 task processing..." />
-    <MESSAGE value="1 task complete" />
     <MESSAGE value="2 task complete" />
     <MESSAGE value="3 task complete" />
     <MESSAGE value="4 task complete" />
     <MESSAGE value="5 task complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="5 task complete" />
+    <MESSAGE value="1 task complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 task complete" />
   </component>
 </project>

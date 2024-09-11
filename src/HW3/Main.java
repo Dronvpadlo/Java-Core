@@ -3,6 +3,10 @@ package HW3;
 import HW3.Task1.Book;
 import HW3.Task1.Magazine;
 import HW3.Task1.Printable;
+import HW3.Task2.Drums;
+import HW3.Task2.Guitar;
+import HW3.Task2.Instrument;
+import HW3.Task2.Trumpet;
 
 import java.util.ArrayList;
 
@@ -29,5 +33,15 @@ public class Main {
         //Створити масив типу "Інструмент" (Instrument), що містить інструменти різних типів.
         //У циклі викликати метод play() для кожного інструменту,
         //який повинен виводити рядок "Грає такий-то інструмент з такими-то характеристиками".
+        ArrayList<Instrument> instruments = new ArrayList<>();
+        instruments.add(new Guitar("Bass Giutar", 4));
+        instruments.add(new Guitar("Rhythm Guitar", 6));
+        instruments.add(new Guitar("Solo Guitar", 7));
+        instruments.add(new Drums("Drums", 22));
+        instruments.add(new Trumpet("Saxophone", 16));
+
+        for (Instrument instrument : instruments){
+            instrument.play();
+        }
     }
 }
