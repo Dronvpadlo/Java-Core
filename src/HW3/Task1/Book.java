@@ -2,10 +2,13 @@ package HW3.Task1;
 
 public class Book implements Printable {
 
-    private final String author;
-    private final String title;
-    private final int pages;
+    private String author;
+    private String title;
+    private int pages;
 
+    public Book(){
+
+    }
     public Book(String author, String title, int pages) {
         this.author = author;
         this.title = title;

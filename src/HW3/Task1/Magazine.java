@@ -1,11 +1,15 @@
 package HW3.Task1;
 
 public class Magazine implements Printable {
-    private final String author;
-    private final String title;
-    private final int pages;
-    private final String month;
-    private final boolean glossy;
+    private String author;
+    private String title;
+    private int pages;
+    private String month;
+    private boolean glossy;
+
+    public Magazine(){
+
+    }
 
     public Magazine(String author, String title, int pages, String month, boolean glossy) {
         this.author = author;
