@@ -1,6 +1,6 @@
-package HW3;
+package HW3.Task1;
 
-public class Magazine implements Printable{
+public class Magazine implements Printable {
     private final String author;
     private final String title;
     private final int pages;

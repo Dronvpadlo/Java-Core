@@ -1,5 +1,9 @@
 package HW3;
 
+import HW3.Task1.Book;
+import HW3.Task1.Magazine;
+import HW3.Task1.Printable;
+
 import java.util.ArrayList;
 
 public class Main {

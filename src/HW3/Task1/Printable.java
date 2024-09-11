@@ -1,4 +1,4 @@
-package HW3;
+package HW3.Task1;
 
 public interface Printable {
     void print();

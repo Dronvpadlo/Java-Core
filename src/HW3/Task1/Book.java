@@ -1,6 +1,6 @@
-package HW3;
+package HW3.Task1;
 
-public class Book implements Printable{
+public class Book implements Printable {
 
     private final String author;
     private final String title;
