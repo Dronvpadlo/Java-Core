@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="1 task complete">
-      <change afterPath="$PROJECT_DIR$/src/HW4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW4/Task1/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW4/Task2/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW4/Task2/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW4/Task2/Skills.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW4/Task2/Student.java" afterDir="false" />
+    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="processing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW4/Task2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4/Task2/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,27 +35,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HW2.Main.executor": "Run",
-    "Application.HW3.Main.executor": "Run",
-    "Application.HW4.Main.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/Java-Core/src/HW4/Task2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "copyright",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HW2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HW3.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HW4.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/Java-Core/src/HW4/Task2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\Java-Core\src\HW4\Task2" />
@@ -145,7 +141,8 @@
       <workItem from="1725953622184" duration="13289000" />
       <workItem from="1725985385418" duration="6005000" />
       <workItem from="1726082153715" duration="3789000" />
-      <workItem from="1726222232556" duration="4824000" />
+      <workItem from="1726222232556" duration="5124000" />
+      <workItem from="1726600178898" duration="931000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -451,7 +448,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726085791003</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="processing">
+      <option name="closed" value="true" />
+      <created>1726229626717</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1726229626717</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,6 +485,7 @@
     <MESSAGE value="5 task complete" />
     <MESSAGE value="2 task complete" />
     <MESSAGE value="1 task complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 task complete" />
+    <MESSAGE value="processing" />
+    <option name="LAST_COMMIT_MESSAGE" value="processing" />
   </component>
 </project>

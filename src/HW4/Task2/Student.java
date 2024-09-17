@@ -8,7 +8,7 @@ public class Student {
     private final String surname;
     private final String email;
     private final int age;
-    private final Gender gender;
+    public Gender gender;
     private final ArrayList<Skills> skills;
     private Car car;
 
@@ -30,6 +30,42 @@ public class Student {
         this.age = age;
         this.gender = gender;
         this.skills = skills;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public Gender getGender() {
+        return gender;
+    }
+
+    public ArrayList<Skills> getSkills() {
+        return skills;
+    }
+
+    public Car getCar() {
+        return car;
+    }
+
+    public void setCar(Car car) {
+        this.car = car;
     }
 
     @Override
