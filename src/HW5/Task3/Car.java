@@ -5,13 +5,13 @@ public class Car {
     private String brand;
     private int power;
     private Owner owner;
-    private double price;
+    private int price;
     private int year;
 
     public Car() {
     }
 
-    public Car(String brand, int power, double price, int year, String name, int age, int drivingExperience) {
+    public Car(String brand, int power, int price, int year, String name, int age, int drivingExperience) {
         this.brand = brand;
         this.power = power;
         this.price = price;
@@ -43,11 +43,11 @@ public class Car {
         this.owner = owner;
     }
 
-    public double getPrice() {
+    public int getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(int price) {
         this.price = price;
     }
 
@@ -61,7 +61,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Auto{" +
+        return "Auto: {" +
                 "brand: '" + brand + '\'' +
                 ", power: " + power +
                 ", owner: " + owner +

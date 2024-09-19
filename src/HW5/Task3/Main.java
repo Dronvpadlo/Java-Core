@@ -1,7 +1,11 @@
 package HW5.Task3;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Iterator;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,6 +27,37 @@ public class Main {
         cars.add(new Car("Nissan", 320, 11000, 2012, "Dominic", 29, 6));
         cars.add(new Car("BMW", 340, 19080, 2016, "Razor", 38, 12));
         cars.add(new Car("Acura", 190, 7400, 2009, "Sadie", 29, 2));
-        System.out.println(cars);
+        cars.add(new Car("Volkswagen", 120, 4000, 2002, "Andrew", 26, 7));
+        System.out.println("_________All Cars__________");
+        cars.forEach(System.out::println);
+
+
+        int halfCars = cars.size()/2;
+        List<Car> toSort = new ArrayList<>(cars);
+        toSort.sort(Comparator.comparing(Car::getPower));
+        List<Car> updatedCars = new ArrayList<>();
+        long limit = halfCars;
+        for (Car car1 : toSort) {
+            if (limit-- == 0) break;
+            car1.setPower((int) (car1.getPower() * 1.1));
+            updatedCars.add(car1);
+        }
+        System.out.println("_________Updated Power__________");
+        updatedCars.forEach(System.out::println);
+
+
+        List<Car> checkDrivingExperience = cars.stream()
+                .filter(car -> car.getOwner().getDrivingExperience()<5)
+                .filter(car -> car.getOwner().getAge()>25)
+                .peek(car -> car.getOwner().setDrivingExperience((int)(car.getOwner().getDrivingExperience()+1)))
+                .toList();
+        System.out.println("_________Check Driv. Exp__________");
+        checkDrivingExperience.forEach(System.out::println);
+
+        int totalPrice = cars.stream()
+                .mapToInt(Car::getPrice)
+                .sum();
+        System.out.println("_________Total Cost__________");
+        System.out.println("Total Price of all cars is " + totalPrice);
     }
 }

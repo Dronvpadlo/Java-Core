@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="Complete Task2">
-      <change afterPath="$PROJECT_DIR$/src/HW5/Task3/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW5/Task3/Owner.java" afterDir="false" />
+    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="proccess..">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW5/Task3/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW5/Task3/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW5/Task3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW5/Task3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +43,7 @@
     &quot;Application.HW4.Task1.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.HW4.Task2.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.HW5.Taks1.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HW5.Task3.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main1.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
@@ -171,7 +171,8 @@
       <workItem from="1726600178898" duration="1200000" />
       <workItem from="1726731190980" duration="11540000" />
       <workItem from="1726752226393" duration="2592000" />
-      <workItem from="1726760996765" duration="2278000" />
+      <workItem from="1726760996765" duration="2465000" />
+      <workItem from="1726766118162" duration="1767000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -557,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726755291714</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="proccess..">
+      <option name="closed" value="true" />
+      <created>1726763470515</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1726763470515</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,6 +603,7 @@
     <MESSAGE value="Init HW5 Task1" />
     <MESSAGE value="Complete Task1" />
     <MESSAGE value="Complete Task2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete Task2" />
+    <MESSAGE value="proccess.." />
+    <option name="LAST_COMMIT_MESSAGE" value="proccess.." />
   </component>
 </project>

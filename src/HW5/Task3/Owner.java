@@ -42,7 +42,7 @@ public class Owner {
 
     @Override
     public String toString() {
-        return "Owner{" +
+        return "{" +
                 "name: '" + name + '\'' +
                 ", age: " + age +
                 ", drivingExperience: " + drivingExperience +
