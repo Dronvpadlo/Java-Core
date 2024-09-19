@@ -1,7 +1,6 @@
-package HW4;
+package HW4.Task4;
 public class Main {
     public static void main(String[] args) {
-
 //        Створити клас Зооклуб. В цьому класі створити одне поле: private Map <Person, List <Pet>> club;
 //        В зооклубі створити методи, та застосувати їх
 //        1) додати учасника в клуб;
@@ -12,7 +11,8 @@ public class Main {
 //        6) вивести на екран зооклуб.
 //        Подумати яким повинен бути Person, щоб була можливість додавати йому тваринку.
 //                Подумати яким повинен бути Pet, щоб була можливість видаляти конкретну тваринку
-
+        Zooclub zooclub = new Zooclub();
+        zooclub.menu();
 
     }
 }

@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="processing...">
-      <change afterPath="$PROJECT_DIR$/src/HW4/Task3/Main2.java" afterDir="false" />
+    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="ZooClub remain">
+      <change afterPath="$PROJECT_DIR$/src/HW4/Task4/Zooclub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW4/Task3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4/Task3/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4/Task4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW4/Task4/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4/Task4/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW4/Task4/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4/Task4/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW4/Task4/PetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4/Task4/PetType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,20 +68,7 @@
       <recent name="C:\Users\User\IdeaProjects\Java-Core\src\HW4\Task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main2">
-    <configuration name="HW4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW4.Main" />
-      <module name="Java-Core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HW4.Main">
     <configuration name="HW4.Task1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW4.Task1.Main" />
       <module name="Java-Core" />
@@ -98,6 +88,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HW4.Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW4.Task4.Main" />
+      <module name="Java-Core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW4.Task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HW4.Main" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main1" />
         <item itemvalue="Application.HW4.Task2.Main" />
         <item itemvalue="Application.HW4.Task1.Main" />
-        <item itemvalue="Application.HW4.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +170,7 @@
       <workItem from="1726082153715" duration="3789000" />
       <workItem from="1726222232556" duration="5124000" />
       <workItem from="1726600178898" duration="1200000" />
-      <workItem from="1726731190980" duration="2793000" />
+      <workItem from="1726731190980" duration="11161000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -505,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726733387672</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="ZooClub remain">
+      <option name="closed" value="true" />
+      <created>1726734430833</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1726734430833</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,6 +547,7 @@
     <MESSAGE value="1 task complete" />
     <MESSAGE value="processing" />
     <MESSAGE value="processing..." />
-    <option name="LAST_COMMIT_MESSAGE" value="processing..." />
+    <MESSAGE value="ZooClub remain" />
+    <option name="LAST_COMMIT_MESSAGE" value="ZooClub remain" />
   </component>
 </project>
