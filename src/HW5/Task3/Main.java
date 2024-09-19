@@ -46,7 +46,7 @@ public class Main {
         List<Car> checkDrivingExperience = cars.stream()
                 .filter(car -> car.getOwner().getDrivingExperience()<5)
                 .filter(car -> car.getOwner().getAge()>25)
-                .peek(car -> car.getOwner().setDrivingExperience((int)(car.getOwner().getDrivingExperience()+1)))
+                .peek(car -> car.getOwner().setDrivingExperience((car.getOwner().getDrivingExperience()+1)))
                 .toList();
         System.out.println("_________Check Driv. Exp__________");
         checkDrivingExperience.forEach(System.out::println);
