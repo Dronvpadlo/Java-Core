@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="Init HW5">
+    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="Init HW5 Task1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW5/Taks1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW5/Taks1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW5/Taks2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW5/Taks2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,20 +65,7 @@
       <recent name="C:\Users\User\IdeaProjects\Java-Core\src\HW4\Task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HW5.Taks1.Main">
-    <configuration name="HW4.Task1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW4.Task1.Main" />
-      <module name="Java-Core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW4.Task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="HW4.Task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW4.Task2.Main" />
       <module name="Java-Core" />
@@ -98,6 +85,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HW5.Taks1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW5.Taks2.Main" />
+      <module name="Java-Core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW5.Taks2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.HW5.Taks1.Main" />
         <item itemvalue="Application.HW4.Task2.Main" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.HW4.Task1.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +168,7 @@
       <workItem from="1726222232556" duration="5124000" />
       <workItem from="1726600178898" duration="1200000" />
       <workItem from="1726731190980" duration="11540000" />
-      <workItem from="1726752226393" duration="1550000" />
+      <workItem from="1726752226393" duration="2373000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -530,7 +530,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726752484007</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Init HW5 Task1">
+      <option name="closed" value="true" />
+      <created>1726754540159</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1726754540159</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,6 +572,7 @@
     <MESSAGE value="ZooClub remain" />
     <MESSAGE value="Complete HW4" />
     <MESSAGE value="Init HW5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init HW5" />
+    <MESSAGE value="Init HW5 Task1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init HW5 Task1" />
   </component>
 </project>

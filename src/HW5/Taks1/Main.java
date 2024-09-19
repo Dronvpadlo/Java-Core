@@ -9,8 +9,6 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args) {
         //створити ArrayList зі словами на 15-20 елементів.
-        //- відсортувати його за алфавітом .
-        //*-- відфільтрувати слова довжиною менше 4 символів (Використав менше 5, бо менше 4 не було в лісті)
         ArrayList<String> strings = new ArrayList<>();
         strings.add("Bologna");
         strings.add("AC Milan");
@@ -34,8 +32,8 @@ public class Main {
         strings.add("Lecce");
         Stream<String> stream = strings.stream();
         List<String> collect = stream
-                .sorted()
-                .filter(string -> string.length() < 5)
+                .sorted() //- відсортувати його за алфавітом .
+                .filter(string -> string.length() < 5) //*-- відфільтрувати слова довжиною менше 4 символів (Використав менше 5, бо менше 4 не було в лісті)
                 .collect(Collectors.toList());
 
         System.out.println(collect);
