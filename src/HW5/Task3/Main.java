@@ -1,5 +1,8 @@
 package HW5.Task3;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+
 public class Main {
     public static void main(String[] args) {
         //Створити клас автомобіля з полями:
@@ -11,5 +14,15 @@ public class Main {
         //Після того в масиві цих автівок зробити перевірку досвіду ВСІХ наших водіїв.
         //Якщо досвід водія менший за 5 років, але його вік більший за 25, то необідно відправити його на курси підвищення кваліфікації, що збільшить йому досвід на 1 рік.
         //Також спробуйте порахувати суму, яку потрібно потратити для покупки всіх цих авто
+
+        ArrayList<Car> cars = new ArrayList<>();
+        cars.add(new Car("Toyota", 250, 4000, 2019, "Melvin", 29, 4));
+        cars.add(new Car("Dodge", 260, 9000, 2014, "Adrian", 24, 3));
+        cars.add(new Car("Alfa Romeo", 180, 8600, 2016, "Annet", 21, 3));
+        cars.add(new Car("Chevrolet", 140, 7700, 2008, "Deki", 27, 5));
+        cars.add(new Car("Nissan", 320, 11000, 2012, "Dominic", 29, 6));
+        cars.add(new Car("BMW", 340, 19080, 2016, "Razor", 38, 12));
+        cars.add(new Car("Acura", 190, 7400, 2009, "Sadie", 29, 2));
+        System.out.println(cars);
     }
 }
