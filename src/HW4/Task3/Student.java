@@ -34,7 +34,13 @@ public class Student implements Comparable<Student> {
     }
     @Override
     public int compareTo(Student o) {
-        return this.skills.size() - o.getSkills().size();
+        int skillComparison = Integer.compare(this.skills.size(), o.getSkills().size());
+
+        if (skillComparison == 0) {
+            return Integer.compare(this.getId(), o.getId());
+        }
+
+        return skillComparison;
     }
 
     public int getId() {

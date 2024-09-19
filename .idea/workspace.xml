@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="processing...">
-      <change afterPath="$PROJECT_DIR$/src/HW4/Task3/Main1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/HW4/Task3/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW4/Task3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4/Task3/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +43,7 @@
     "Application.HW4.Task1.Main.executor": "Run",
     "Application.HW4.Task2.Main.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Main1.executor": "Run",
     "Application.Main2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -66,7 +65,7 @@
       <recent name="C:\Users\User\IdeaProjects\Java-Core\src\HW4\Task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main1">
+  <component name="RunManager" selected="Application.Main2">
     <configuration name="HW4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW4.Main" />
       <module name="Java-Core" />
@@ -134,8 +133,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.HW4.Task2.Main" />
         <item itemvalue="Application.HW4.Task1.Main" />
         <item itemvalue="Application.HW4.Main" />
@@ -168,7 +167,7 @@
       <workItem from="1726082153715" duration="3789000" />
       <workItem from="1726222232556" duration="5124000" />
       <workItem from="1726600178898" duration="1200000" />
-      <workItem from="1726731190980" duration="2052000" />
+      <workItem from="1726731190980" duration="2793000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -498,7 +497,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726732893544</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="processing...">
+      <option name="closed" value="true" />
+      <created>1726733387672</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1726733387672</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
