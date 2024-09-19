@@ -1,4 +1,4 @@
-package HW4.Task2;
+package HW4.Task3;
 
 public class Car {
     private String model;

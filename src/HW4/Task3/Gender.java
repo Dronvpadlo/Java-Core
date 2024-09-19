@@ -1,4 +1,4 @@
-package HW4.Task2;
+package HW4.Task3;
 
 public enum Gender {
     MALE("Male"), FEMALE("female"), NON_BINARY("Non Binary");

@@ -1,9 +1,10 @@
-package HW4.Task2;
+package HW4.Task3;
 
 import java.util.ArrayList;
 
-public class Student {
+public class Student implements Comparable<Student> {
     private final int id;
+
     private final String name;
     private final String surname;
     private final String email;
@@ -30,6 +31,10 @@ public class Student {
         this.age = age;
         this.gender = gender;
         this.skills = skills;
+    }
+    @Override
+    public int compareTo(Student o) {
+        return this.id - o.getId();
     }
 
     public int getId() {
