@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="Complete HW4">
+    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="Init HW5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW5/Taks1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW5/Taks1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,37 +34,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.HW2.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HW3.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HW4.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HW4.Task1.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HW4.Task2.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/Java-Core/src/HW4/Task2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HW2.Main.executor": "Run",
+    "Application.HW3.Main.executor": "Run",
+    "Application.HW4.Main.executor": "Run",
+    "Application.HW4.Task1.Main.executor": "Run",
+    "Application.HW4.Task2.Main.executor": "Run",
+    "Application.HW5.Taks1.Main.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Main1.executor": "Run",
+    "Application.Main2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/Java-Core/src/HW4/Task2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "copyright",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\Java-Core\src\HW4\Task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HW4.Task2.Main">
+  <component name="RunManager" selected="Application.HW5.Taks1.Main">
     <configuration name="HW4.Task1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW4.Task1.Main" />
       <module name="Java-Core" />
@@ -90,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW4.Task4.Main" />
+    <configuration name="HW5.Taks1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW5.Taks1.Main" />
       <module name="Java-Core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW4.Task4.*" />
+          <option name="PATTERN" value="HW5.Taks1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,6 +133,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HW5.Taks1.Main" />
         <item itemvalue="Application.HW4.Task2.Main" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main1" />
@@ -165,6 +168,7 @@
       <workItem from="1726222232556" duration="5124000" />
       <workItem from="1726600178898" duration="1200000" />
       <workItem from="1726731190980" duration="11540000" />
+      <workItem from="1726752226393" duration="1550000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -518,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726743316408</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Init HW5">
+      <option name="closed" value="true" />
+      <created>1726752484007</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1726752484007</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,6 +563,7 @@
     <MESSAGE value="processing..." />
     <MESSAGE value="ZooClub remain" />
     <MESSAGE value="Complete HW4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete HW4" />
+    <MESSAGE value="Init HW5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init HW5" />
   </component>
 </project>
