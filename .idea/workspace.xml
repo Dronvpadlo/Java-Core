@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="proccess..">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW5/Task3/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW5/Task3/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW5/Task3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW5/Task3/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="Complete HW5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,31 +168,7 @@
       <workItem from="1726731190980" duration="11540000" />
       <workItem from="1726752226393" duration="2592000" />
       <workItem from="1726760996765" duration="2465000" />
-      <workItem from="1726766118162" duration="1767000" />
-    </task>
-    <task id="LOCAL-00001" summary="Init commit">
-      <option name="closed" value="true" />
-      <created>1725649373490</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1725649373490</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Complete 1 task">
-      <option name="closed" value="true" />
-      <created>1725701588094</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1725701588094</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Complete 1 task">
-      <option name="closed" value="true" />
-      <created>1725701820004</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1725701820004</updated>
+      <workItem from="1726766118162" duration="2148000" />
     </task>
     <task id="LOCAL-00004" summary="Complete 2 task">
       <option name="closed" value="true" />
@@ -566,7 +538,31 @@
       <option name="project" value="LOCAL" />
       <updated>1726763470515</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Complete HW5">
+      <option name="closed" value="true" />
+      <created>1726768199032</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1726768199033</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Complete HW5">
+      <option name="closed" value="true" />
+      <created>1726768209040</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1726768209040</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Complete HW5">
+      <option name="closed" value="true" />
+      <created>1726768248960</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1726768248960</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,6 +600,7 @@
     <MESSAGE value="Complete Task1" />
     <MESSAGE value="Complete Task2" />
     <MESSAGE value="proccess.." />
-    <option name="LAST_COMMIT_MESSAGE" value="proccess.." />
+    <MESSAGE value="Complete HW5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete HW5" />
   </component>
 </project>
