@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="Complete HW5">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lombok.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lombok.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW6/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Core.iml" afterDir="false" />
-    </list>
+    <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="Complete HW6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +70,7 @@
       <recent name="C:\Users\User\IdeaProjects\Java-Core\src\HW4\Task2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Java-Core\src\HW6" />
       <recent name="C:\Users\User\IdeaProjects\Java-Core" />
       <recent name="C:\Users\User\IdeaProjects\Java-Core\libraries" />
     </key>
@@ -188,15 +181,7 @@
       <workItem from="1726752226393" duration="2592000" />
       <workItem from="1726760996765" duration="2465000" />
       <workItem from="1726766118162" duration="2168000" />
-      <workItem from="1726859170438" duration="1449000" />
-    </task>
-    <task id="LOCAL-00005" summary="Complete HW">
-      <option name="closed" value="true" />
-      <created>1725703924056</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1725703924056</updated>
+      <workItem from="1726859170438" duration="1639000" />
     </task>
     <task id="LOCAL-00006" summary="Complete HW">
       <option name="closed" value="true" />
@@ -582,7 +567,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726768287294</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Complete HW6">
+      <option name="closed" value="true" />
+      <created>1726860806102</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1726860806102</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,6 +614,7 @@
     <MESSAGE value="Complete Task2" />
     <MESSAGE value="proccess.." />
     <MESSAGE value="Complete HW5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete HW5" />
+    <MESSAGE value="Complete HW6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete HW6" />
   </component>
 </project>
