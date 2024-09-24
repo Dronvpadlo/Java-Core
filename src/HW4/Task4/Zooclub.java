@@ -14,15 +14,16 @@ public class Zooclub {
     }
     private Map.Entry<Person, List<Pet>> _entryByPersonId(){
         int personId = this._inputInt();
-        return this.club.entrySet().stream().filter(item -> item.getKey().getId() == personId).findFirst().orElse(null);
+        return this.club.entrySet().stream().filter(item -> item.getKey().getId() == personId).findFirst().orElse(null); //пошук Персона по ід
     }
     private void addPerson(){
-        Integer id = this.club
+        Integer currentId = this.club
                 .keySet()
                 .stream()
                 .max(Comparator.comparing(Person::getId))//визначаємо максимальне ID щоб додати наступне
                 .map(person -> person.getId()+1)//реалізуємо додавання нового ID
                 .orElse(1);//Якщо немає ID то обираємо ID: 1
+        int id = currentId;
         System.out.print("Enter person name: ");
         String name = _inputString();
         this.club.put(new Person(id, name), new ArrayList<>());
