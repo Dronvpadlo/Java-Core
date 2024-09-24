@@ -3,6 +3,7 @@ package HW5.Task3;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -29,19 +30,15 @@ public class Main {
         cars.forEach(System.out::println);
 
 
-        int halfCars = cars.size()/2;
-        List<Car> toSort = new ArrayList<>(cars);
-        toSort.sort(Comparator.comparing(Car::getPower));
-        List<Car> updatedCars = new ArrayList<>();
-        long limit = halfCars;
-        for (Car car1 : toSort) {
-            if (limit-- == 0) break;
-            car1.setPower((int) (car1.getPower() * 1.1));
-            updatedCars.add(car1);
-        }
-        System.out.println("_________Updated Power__________");
-        updatedCars.forEach(System.out::println);
 
+        int halfCars = cars.size()/2;
+        List<Car> toSort = cars.stream()
+                .sorted(Comparator.comparing(Car::getPower))
+                .limit(halfCars)
+                .peek(car -> car.setPower((int)(car.getPower()*1.1)))
+                .toList();
+        System.out.println("_________SortedCars__________");
+        toSort.forEach(System.out::println);
 
         List<Car> checkDrivingExperience = cars.stream()
                 .filter(car -> car.getOwner().getDrivingExperience()<5)

@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1df48531-8ff5-4b33-a5a8-be9a93371001" name="Changes" comment="Complete HW6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW4/Task4/Zooclub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4/Task4/Zooclub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW5/Task3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW5/Task3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,7 @@
     &quot;Application.HW4.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.HW4.Task1.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.HW4.Task2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HW4.Task4.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.HW5.Taks1.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.HW5.Task3.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.HW6.Main.executor&quot;: &quot;Run&quot;,
@@ -78,7 +79,7 @@
       <recent name="C:\Users\User\IdeaProjects\Java-Core\libraries" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HW4.Task4.Main">
+  <component name="RunManager" selected="Application.HW5.Task3.Main">
     <configuration name="HW4.Task4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW4.Task4.Main" />
       <module name="Java-Core" />
@@ -146,9 +147,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HW5.Task3.Main" />
         <item itemvalue="Application.HW4.Task4.Main" />
         <item itemvalue="Application.HW6.Main" />
-        <item itemvalue="Application.HW5.Task3.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.HW5.Taks1.Main" />
       </list>
@@ -186,22 +187,8 @@
       <workItem from="1726766118162" duration="2168000" />
       <workItem from="1726859170438" duration="1639000" />
       <workItem from="1726945477572" duration="477000" />
-    </task>
-    <task id="LOCAL-00007" summary="Complete HW">
-      <option name="closed" value="true" />
-      <created>1725704614841</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1725704614841</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Complete HW">
-      <option name="closed" value="true" />
-      <created>1725737965049</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1725737965049</updated>
+      <workItem from="1727162353943" duration="1014000" />
+      <workItem from="1727164623902" duration="725000" />
     </task>
     <task id="LOCAL-00009" summary="Complete HW">
       <option name="closed" value="true" />
@@ -579,7 +566,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726945485113</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Complete HW4">
+      <option name="closed" value="true" />
+      <created>1727162584686</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1727162584686</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Complete HW6">
+      <option name="closed" value="true" />
+      <created>1727162808902</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1727162808902</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,13 +614,13 @@
     <MESSAGE value="processing" />
     <MESSAGE value="processing..." />
     <MESSAGE value="ZooClub remain" />
-    <MESSAGE value="Complete HW4" />
     <MESSAGE value="Init HW5" />
     <MESSAGE value="Init HW5 Task1" />
     <MESSAGE value="Complete Task1" />
     <MESSAGE value="Complete Task2" />
     <MESSAGE value="proccess.." />
     <MESSAGE value="Complete HW5" />
+    <MESSAGE value="Complete HW4" />
     <MESSAGE value="Complete HW6" />
     <option name="LAST_COMMIT_MESSAGE" value="Complete HW6" />
   </component>
